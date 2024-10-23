@@ -6,6 +6,73 @@
     <title>Udemy</title>
 </head>
 <body>
+    <h1>This is the heading</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>heading one</th>
+                <th>heading two</th>
+                <th>Heading three</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>one</td>
+                <td>two</td>
+                <td>three</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>end one</td>
+                <td>end two</td>
+                <td>end three</td>
+            </tr>
+        </tfoot>
+
+    </table>
+    <h2>This is the input example</h2>
+<form action="">
+    <label for="name">Enter your name</label>
+    <input type="text" name="Your name" id="name">
+    <br>
+    <input type="checkbox" name="conditions" id="aggred">
+    <label for="aggred">I agree to share this information with you</label>
+
+    <p>
+        <label for="XS">XS</label>
+        <input type="radio" name="size" id="XS" value="extra small">
+        <br>
+        <label for="S">S</label>
+        <input type="radio" name="size" id="S" value="small">
+        <br>
+        <label for="M">M</label>
+        <input type="radio" name="size" id="M" value="medium">
+    </p>
+
+    <p>
+        <label for="Team">Select you favriout IPL team</label>
+        <select name="Team" id="Team">
+            <option value="">Select the Team</option>
+            <option value="RCB">RCB</option>
+            <option value="CSK">CSK</option>
+            <option value="MI">MI</option>
+            <option value="KKR">KKR</option>
+        </select>
+    </p>
+
+    <p>
+        <label for="match">Number of matchs attended</label>
+        <input type="range" min="0" max="12" id="match" name="match">
+    </p>
+
+    <p>
+        <label for="story">Tell us about the experience you had with the match</label>
+        <br>
+        <textarea name="story" id="story" rows="10" cols="50" placeholder="write hear"></textarea>
+    </p>
+<button>sumbit</button>
+</form>
     
 </body>
 </html>
