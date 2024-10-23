@@ -1,0 +1,23 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #806BDC;
+    padding: 10px;
+}
+
+table{
+    border-collapse: collapse; 
+    width: 100%;
+    align-items: center;
+}
+
+img{
+    width:80px;
+}
